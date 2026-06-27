@@ -9,7 +9,10 @@
 </head>
 
 <body>
+
+    <!-- cabeçalho do site -->  
     <header>
+
         <a href="#" class="logo">🍨 Açaí Prime</a>
 
         <nav class="nav">
@@ -18,24 +21,34 @@
             <a href="#sobre">Sobre</a>
             <a href="#contato">Contato</a>
         </nav>
-        <a href="https://whatsa.me/5581997173244" class="btn">🛒Peça Agora</a>
+
+        <a href="#" onclick="abrirpopup()" class="btn">🛒Peça Agora</a>
+
     </header>
-    <div class="traco"></div>
+
+
     <section id="inicio" class="hero-topo">
 
+        <!-- section hero -->
         <article class="hero">
             <div>
+
                 <h1>O verdadeiro açaí premium começa aqui.</h1>
+
                 <p>Cremoso, gelado e feito com ingredientes selecionados.
                     Um açaí que entrega sabor intenso, qualidade e a experiência que só a Açaíi Prime oferece.</p>
+
                 <nav class="hero-botao">
                     <a href="#cardapio" class="botao">Ver Cardapio</a>
                     <a href="https://whatsa.me/5581997173244" target="_blank" class="botao botao-outline">📲 WhatsApp</a>
                 </nav>
+
                 <ul class="hero-stats">
+
                     <li>
                         <strong>+500</strong> Clientes satisfeitos
                     </li>
+
                     <li>
                         <strong>4.9</strong> Avaliações ⭐
                     </li>
@@ -43,69 +56,84 @@
                     <li>
                         <strong>40Min</strong> ou seu dinheiro de volta
                     </li>
+
                 </ul>
 
             </div>
 
             <img src="./img/logo-açaí-prime-transparente.png" alt="logo açaí prime">
-
         </article>
+
     </section>
 
+    <!-- section cardapio -->
     <section class="cardapio">
         <h2>Nosso Cardapio</h2>
         <p>Uma seleção de sabores que une qualidade, equilíbrio e experiência.</p>
 
         <ul class="menu-grid" id="cardapio">
+
             <li>
                 <img src="./img/acai-1.jpg" alt="Acai 1">
                 <span class="badge">Mais Vendido</span>
                 <h3>Açaí tradiconal</h3>
                 <p>Leite em pó • Farinha de amendoim • Banana • Leite condensado</p>
                 <strong>R$ 8,00</strong>
-                <a href="https://whatsa.me/5581997173244" class="botao" target="_blank">Pedir</a>
+                <!-- <a href="#" onclick="abrirpopup()" class="botao">Pedir</a> -->
+                 <button class="btn-pedir" onclick="abrirpopup()" target="_blank">Pedir</button> 
             </li>
+
             <li>
                 <img src="./img/acai-1.jpg" alt="Acai 1">
                 <h3>Açaí Frutas Clássicas</h3>
                 <p>Banana • Morango • Granola • Leite em pó • Farinha de amendoim • Leite condensado</p>
                 <strong>R$ 10,00</strong>
-                <a href="https://whatsa.me/5581997173244" class="botao" target="_blank">Pedir</a>
+                <!-- <a href="#" onclick="abrirpopup()" class="botao" >Pedir</a> -->
+                <button class="btn-pedir" onclick="abrirpopup()" target="_blank">Pedir</button>
             </li>
+
             <li>
                 <img src="./img/acai-1.jpg" alt="Acai 1">
                 <span class="badge">Novidade</span>
                 <h3>Açaí tradiconal</h3>
-                <p>Açaí 100% natural, cremoso e saboroso</p>
+                <p>Banana • Morango • Granola • Leite em pó • Farinha de amendoim • Leite condensado</p>
                 <strong>R$ 15,00</strong>
-                <a href="https://whatsa.me/5581997173244" class="botao" target="_blank">Pedir</a>
-            </li>
-            <li>
-                <img src="./img/acai-1.jpg" alt="Acai 1">
-                <h3>Açaí tradiconal</h3>
-                <p>Açaí 100% natural, cremoso e saboroso</p>
-                <strong>R$ 18,00</strong>
-                <a href="https://whatsa.me/5581997173244" class="botao" target="_blank">Pedir</a>
+                <!-- <a href="#" onclick="abrirpopup()" class="botao">Pedir</a> -->
+                <button class="btn-pedir" onclick="abrirpopup()" target="_blank">Pedir</button>
             </li>
 
             <li>
                 <img src="./img/acai-1.jpg" alt="Acai 1">
                 <h3>Açaí tradiconal</h3>
-                <p>Açaí 100% natural, cremoso e saboroso</p>
+                <p>Banana • Morango • Granola • Leite em pó • Farinha de amendoim • Leite condensado</p>
                 <strong>R$ 18,00</strong>
-                <a href="https://whatsa.me/5581997173244" class="botao" target="_blank">Pedir</a>
+                <!-- <a href="#" onclick="abrirpopup()" class="botao" >Pedir</a> -->
+                <button class="btn-pedir" onclick="abrirpopup()" target="_blank">Pedir</button>
             </li>
 
             <li>
                 <img src="./img/acai-1.jpg" alt="Acai 1">
                 <h3>Açaí tradiconal</h3>
-                <p>Açaí 100% natural, cremoso e saboroso</p>
+                <p>Banana • Morango • Granola • Leite em pó • Farinha de amendoim • Leite condensado</p>
                 <strong>R$ 18,00</strong>
-                <a href="https://whatsa.me/5581997173244" class="botao" target="_blank">Pedir</a>
+                <!-- <a href="#" onclick="abrirpopup()" class="botao" >Pedir</a> -->
+                <button class="btn-pedir" onclick="abrirpopup()" target="_blank">Pedir</button>
             </li>
+
+            <li>
+                <img src="./img/acai-1.jpg" alt="Acai 1">
+                <h3>Açaí tradiconal</h3>
+                <p>Banana • Morango • Granola • Leite em pó • Farinha de amendoim • Leite condensado</p>
+                <strong>R$ 18,00</strong>
+                <!-- <a href="#" onclick="abrirpopup()" class="botao">Pedir</a> -->
+                <button class="btn-pedir" onclick="abrirpopup()" target="_blank">Pedir</button>
+            </li>
+
         </ul>
+
     </section>
 
+    <!-- section sobre -->
     <section class="sobre" id="sobre">
         <img src="./img/logo-perfil-açaí-prime.png" alt="">
         <article>
@@ -123,18 +151,68 @@
         </article>
     </section>
 
+    <!-- section contato -->
     <section id="contato" class="contato">
         <h2>Bateu aquela vontade de açaí?</h2>
         <p>Faça seu pedido agora e receba em casa!</p>
         <a href="https://whatsa.me/5581997173244" class="botao btn-outline" target="_blank">📲 Pedir pelo WhatsApp</a>
     </section>
 
+    <!-- popup -->
+
+    <div id="meuPopup" class="modal">
+
+        <div class="modal-conteudo">
+            <span id="fecharPopup" class="fechar">&times;</span>
+
+            <form class="form-pedido">
+
+                <label for="nome" class="lab">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+
+                <label for="numero" class="lab">Número de Telefone:</label>
+                <input type="tel"  class="form-control" id="numero" name="numero" required>
+
+                <label for="endereco" class="lab">Endereço:</label>
+                <input type="text" class="form-control" id="endereco" name="endereco" required>
+
+                <label for="ingredientes" class="lab">Acompanhamentos</label>
+
+                <div>
+
+                    <input type="checkbox" class="form-check-input" id="ingredientes" name="ingredientes" required>
+                    <label for="acompanhamentos" class="form-check-label">Leite em pó • Farinha de amendoim • Banana • Leite condensado</label>
+
+                    <input type="checkbox" class="form-check-input" id="ingredientes" name="ingredientes" required>
+                    <label for="acompanhamentos" class="form-check-label">Banana • Morango • Granola • Leite em pó • Farinha de amendoim • Leite condensado</label>
+
+                    <input type="checkbox" class="form-check-input" id="ingredientes" name="ingredientes" required>
+                    <label for="acompanhamentos" class="form-check-label">Banana • Morango • Granola • Leite em pó • Farinha de amendoim • Leite condensado</label>
+
+                    <input type="checkbox" class="form-check-input" id="ingredientes" name="ingredientes" required>
+                    <label for="acompanhamentos" class="form-check-label">Leite em pó • Farinha de amendoim • Banana • Leite condensado</label>
+
+                    <input type="checkbox" class="form-check-input" id="ingredientes" name="ingredientes" required>
+                    <label for="acompanhamentos" class="form-check-label">Banana • Morango • Granola • Leite em pó • Farinha de amendoim • Leite condensado </label>
+                </div>
+
+                
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- rodapé do site -->
     <footer>
         <section class="rodape">
             <p>&copy; Açaí Prime 2026 - Todos os direitos reservados</p>
         </section>
     </footer>
-
+    
+    <script src="script.js"></script>
+    
 
 </body>
 
